@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E63F38F26D06CCA9635BADB /* Pods_SwifyTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43986EB8C5A36C8409D23C0 /* Pods_SwifyTodo.framework */; };
+		BC6033A41E7418C9B274E38B /* Pods_SwifyTodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FD0A3C754739491EDBE5A /* Pods_SwifyTodoTests.framework */; };
+		E1D755DD1DADCBC100495DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D755DC1DADCBC100495DD4 /* AppDelegate.swift */; };
+		E1D755DF1DADCBC100495DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D755DE1DADCBC100495DD4 /* ViewController.swift */; };
+		E1D755E21DADCBC100495DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D755E01DADCBC100495DD4 /* Main.storyboard */; };
+		E1D755E41DADCBC100495DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D755E31DADCBC100495DD4 /* Assets.xcassets */; };
+		E1D755E71DADCBC100495DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1D755E51DADCBC100495DD4 /* LaunchScreen.storyboard */; };
+		E1D755F21DADCBC100495DD4 /* SwifyTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D755F11DADCBC100495DD4 /* SwifyTodoTests.swift */; };
+		E1D755FD1DADCBC100495DD4 /* SwifyTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D755FC1DADCBC100495DD4 /* SwifyTodoUITests.swift */; };
+		E3B3AADF89BF397A852AD0CF /* Pods_SwifyTodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B5DB5EACFB80DBB96EB170 /* Pods_SwifyTodoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1D755EE1DADCBC100495DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1D755D11DADCBC100495DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D755D81DADCBC100495DD4;
+			remoteInfo = SwifyTodo;
+		};
+		E1D755F91DADCBC100495DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1D755D11DADCBC100495DD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1D755D81DADCBC100495DD4;
+			remoteInfo = SwifyTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039FD0A3C754739491EDBE5A /* Pods_SwifyTodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifyTodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EF4D6150720D1DE6BB06C9 /* Pods-SwifyTodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodoTests/Pods-SwifyTodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		59E55B2FEFE0B69A8D991977 /* Pods-SwifyTodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodoUITests/Pods-SwifyTodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		864A2AC6F5066F63F2C0B51B /* Pods-SwifyTodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodoTests/Pods-SwifyTodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B5DB5EACFB80DBB96EB170 /* Pods_SwifyTodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifyTodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45AF2E4824FCE6D0051D3FA /* Pods-SwifyTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodo/Pods-SwifyTodo.release.xcconfig"; sourceTree = "<group>"; };
+		CC21D284AE4DC480E6CB17BE /* Pods-SwifyTodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodoUITests/Pods-SwifyTodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D214A6B52621EF3137F142DE /* Pods-SwifyTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwifyTodo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwifyTodo/Pods-SwifyTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D755D91DADCBC100495DD4 /* SwifyTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifyTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D755DC1DADCBC100495DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1D755DE1DADCBC100495DD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1D755E11DADCBC100495DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1D755E31DADCBC100495DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1D755E61DADCBC100495DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1D755E81DADCBC100495DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D755ED1DADCBC100495DD4 /* SwifyTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifyTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D755F11DADCBC100495DD4 /* SwifyTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifyTodoTests.swift; sourceTree = "<group>"; };
+		E1D755F31DADCBC100495DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D755F81DADCBC100495DD4 /* SwifyTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifyTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D755FC1DADCBC100495DD4 /* SwifyTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifyTodoUITests.swift; sourceTree = "<group>"; };
+		E1D755FE1DADCBC100495DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F43986EB8C5A36C8409D23C0 /* Pods_SwifyTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwifyTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1D755D61DADCBC100495DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E63F38F26D06CCA9635BADB /* Pods_SwifyTodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755EA1DADCBC100495DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6033A41E7418C9B274E38B /* Pods_SwifyTodoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755F51DADCBC100495DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B3AADF89BF397A852AD0CF /* Pods_SwifyTodoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189155E30CE91C5B44974D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F43986EB8C5A36C8409D23C0 /* Pods_SwifyTodo.framework */,
+				039FD0A3C754739491EDBE5A /* Pods_SwifyTodoTests.framework */,
+				B3B5DB5EACFB80DBB96EB170 /* Pods_SwifyTodoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63A20BA67E4ED9E4A0FB972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D214A6B52621EF3137F142DE /* Pods-SwifyTodo.debug.xcconfig */,
+				C45AF2E4824FCE6D0051D3FA /* Pods-SwifyTodo.release.xcconfig */,
+				864A2AC6F5066F63F2C0B51B /* Pods-SwifyTodoTests.debug.xcconfig */,
+				53EF4D6150720D1DE6BB06C9 /* Pods-SwifyTodoTests.release.xcconfig */,
+				59E55B2FEFE0B69A8D991977 /* Pods-SwifyTodoUITests.debug.xcconfig */,
+				CC21D284AE4DC480E6CB17BE /* Pods-SwifyTodoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1D755D01DADCBC100495DD4 = {
+			isa = PBXGroup;
+			children = (
+				E1D755DB1DADCBC100495DD4 /* SwifyTodo */,
+				E1D755F01DADCBC100495DD4 /* SwifyTodoTests */,
+				E1D755FB1DADCBC100495DD4 /* SwifyTodoUITests */,
+				E1D755DA1DADCBC100495DD4 /* Products */,
+				C63A20BA67E4ED9E4A0FB972 /* Pods */,
+				189155E30CE91C5B44974D24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1D755DA1DADCBC100495DD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1D755D91DADCBC100495DD4 /* SwifyTodo.app */,
+				E1D755ED1DADCBC100495DD4 /* SwifyTodoTests.xctest */,
+				E1D755F81DADCBC100495DD4 /* SwifyTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1D755DB1DADCBC100495DD4 /* SwifyTodo */ = {
+			isa = PBXGroup;
+			children = (
+				E1D755DC1DADCBC100495DD4 /* AppDelegate.swift */,
+				E1D755DE1DADCBC100495DD4 /* ViewController.swift */,
+				E1D755E01DADCBC100495DD4 /* Main.storyboard */,
+				E1D755E31DADCBC100495DD4 /* Assets.xcassets */,
+				E1D755E51DADCBC100495DD4 /* LaunchScreen.storyboard */,
+				E1D755E81DADCBC100495DD4 /* Info.plist */,
+			);
+			path = SwifyTodo;
+			sourceTree = "<group>";
+		};
+		E1D755F01DADCBC100495DD4 /* SwifyTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1D755F11DADCBC100495DD4 /* SwifyTodoTests.swift */,
+				E1D755F31DADCBC100495DD4 /* Info.plist */,
+			);
+			path = SwifyTodoTests;
+			sourceTree = "<group>";
+		};
+		E1D755FB1DADCBC100495DD4 /* SwifyTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1D755FC1DADCBC100495DD4 /* SwifyTodoUITests.swift */,
+				E1D755FE1DADCBC100495DD4 /* Info.plist */,
+			);
+			path = SwifyTodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1D755D81DADCBC100495DD4 /* SwifyTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D756011DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodo" */;
+			buildPhases = (
+				048C7F66DEFC85E2A6B7E008 /* [CP] Check Pods Manifest.lock */,
+				E1D755D51DADCBC100495DD4 /* Sources */,
+				E1D755D61DADCBC100495DD4 /* Frameworks */,
+				E1D755D71DADCBC100495DD4 /* Resources */,
+				A94D3318CB69B535D35E9C54 /* [CP] Embed Pods Frameworks */,
+				AABC8BD7DBF74C5C653C0B14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifyTodo;
+			productName = SwifyTodo;
+			productReference = E1D755D91DADCBC100495DD4 /* SwifyTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1D755EC1DADCBC100495DD4 /* SwifyTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D756041DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodoTests" */;
+			buildPhases = (
+				CD85C1AADCEE0461B6E029EA /* [CP] Check Pods Manifest.lock */,
+				E1D755E91DADCBC100495DD4 /* Sources */,
+				E1D755EA1DADCBC100495DD4 /* Frameworks */,
+				E1D755EB1DADCBC100495DD4 /* Resources */,
+				AA01239581B8C8A670C0A2FD /* [CP] Embed Pods Frameworks */,
+				30625E5897C2E40FDED01FC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1D755EF1DADCBC100495DD4 /* PBXTargetDependency */,
+			);
+			name = SwifyTodoTests;
+			productName = SwifyTodoTests;
+			productReference = E1D755ED1DADCBC100495DD4 /* SwifyTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1D755F71DADCBC100495DD4 /* SwifyTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1D756071DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodoUITests" */;
+			buildPhases = (
+				FAA262C0147B33466F46EBBF /* [CP] Check Pods Manifest.lock */,
+				E1D755F41DADCBC100495DD4 /* Sources */,
+				E1D755F51DADCBC100495DD4 /* Frameworks */,
+				E1D755F61DADCBC100495DD4 /* Resources */,
+				C349E026AA10E6C8B4A54CC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1D755FA1DADCBC100495DD4 /* PBXTargetDependency */,
+			);
+			name = SwifyTodoUITests;
+			productName = SwifyTodoUITests;
+			productReference = E1D755F81DADCBC100495DD4 /* SwifyTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1D755D11DADCBC100495DD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kohey;
+				TargetAttributes = {
+					E1D755D81DADCBC100495DD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9D8UR7H9D4;
+					};
+					E1D755EC1DADCBC100495DD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1D755D81DADCBC100495DD4;
+					};
+					E1D755F71DADCBC100495DD4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1D755D81DADCBC100495DD4;
+					};
+				};
+			};
+			buildConfigurationList = E1D755D41DADCBC100495DD4 /* Build configuration list for PBXProject "SwifyTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1D755D01DADCBC100495DD4;
+			productRefGroup = E1D755DA1DADCBC100495DD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1D755D81DADCBC100495DD4 /* SwifyTodo */,
+				E1D755EC1DADCBC100495DD4 /* SwifyTodoTests */,
+				E1D755F71DADCBC100495DD4 /* SwifyTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1D755D71DADCBC100495DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D755E71DADCBC100495DD4 /* LaunchScreen.storyboard in Resources */,
+				E1D755E41DADCBC100495DD4 /* Assets.xcassets in Resources */,
+				E1D755E21DADCBC100495DD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755EB1DADCBC100495DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755F61DADCBC100495DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048C7F66DEFC85E2A6B7E008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30625E5897C2E40FDED01FC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifyTodoTests/Pods-SwifyTodoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94D3318CB69B535D35E9C54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifyTodo/Pods-SwifyTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA01239581B8C8A670C0A2FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifyTodoTests/Pods-SwifyTodoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABC8BD7DBF74C5C653C0B14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifyTodo/Pods-SwifyTodo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C349E026AA10E6C8B4A54CC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwifyTodoUITests/Pods-SwifyTodoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD85C1AADCEE0461B6E029EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA262C0147B33466F46EBBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1D755D51DADCBC100495DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D755DF1DADCBC100495DD4 /* ViewController.swift in Sources */,
+				E1D755DD1DADCBC100495DD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755E91DADCBC100495DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D755F21DADCBC100495DD4 /* SwifyTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1D755F41DADCBC100495DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D755FD1DADCBC100495DD4 /* SwifyTodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1D755EF1DADCBC100495DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D755D81DADCBC100495DD4 /* SwifyTodo */;
+			targetProxy = E1D755EE1DADCBC100495DD4 /* PBXContainerItemProxy */;
+		};
+		E1D755FA1DADCBC100495DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1D755D81DADCBC100495DD4 /* SwifyTodo */;
+			targetProxy = E1D755F91DADCBC100495DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1D755E01DADCBC100495DD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1D755E11DADCBC100495DD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1D755E51DADCBC100495DD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1D755E61DADCBC100495DD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1D755FF1DADCBC100495DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1D756001DADCBC100495DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1D756021DADCBC100495DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D214A6B52621EF3137F142DE /* Pods-SwifyTodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwifyTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E1D756031DADCBC100495DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45AF2E4824FCE6D0051D3FA /* Pods-SwifyTodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwifyTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E1D756051DADCBC100495DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864A2AC6F5066F63F2C0B51B /* Pods-SwifyTodoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwifyTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifyTodo.app/SwifyTodo";
+			};
+			name = Debug;
+		};
+		E1D756061DADCBC100495DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53EF4D6150720D1DE6BB06C9 /* Pods-SwifyTodoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwifyTodoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifyTodo.app/SwifyTodo";
+			};
+			name = Release;
+		};
+		E1D756081DADCBC100495DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E55B2FEFE0B69A8D991977 /* Pods-SwifyTodoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SwifyTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwifyTodo;
+			};
+			name = Debug;
+		};
+		E1D756091DADCBC100495DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC21D284AE4DC480E6CB17BE /* Pods-SwifyTodoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SwifyTodoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.kohei.SwifyTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwifyTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1D755D41DADCBC100495DD4 /* Build configuration list for PBXProject "SwifyTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D755FF1DADCBC100495DD4 /* Debug */,
+				E1D756001DADCBC100495DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D756011DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D756021DADCBC100495DD4 /* Debug */,
+				E1D756031DADCBC100495DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D756041DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D756051DADCBC100495DD4 /* Debug */,
+				E1D756061DADCBC100495DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1D756071DADCBC100495DD4 /* Build configuration list for PBXNativeTarget "SwifyTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D756081DADCBC100495DD4 /* Debug */,
+				E1D756091DADCBC100495DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1D755D11DADCBC100495DD4 /* Project object */;
+}
