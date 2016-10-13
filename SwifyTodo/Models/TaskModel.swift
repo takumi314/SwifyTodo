@@ -6,8 +6,9 @@
 //  Copyright © 2016年 Kohey. All rights reserved.
 //
 
-import Cocoa
+import UIKit
+import RealmSwift
 
-class TaskModel: NSObject {
+class TaskModel: Object {
 
 }

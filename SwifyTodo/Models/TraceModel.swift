@@ -6,8 +6,9 @@
 //  Copyright © 2016年 Kohey. All rights reserved.
 //
 
-import Cocoa
+import UIKit
+import RealmSwift
 
-class TraceModel: NSObject {
+class TraceModel: Object {
 
 }
