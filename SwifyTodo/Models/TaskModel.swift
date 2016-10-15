@@ -6,9 +6,16 @@
 //  Copyright © 2016年 Kohey. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import RealmSwift
 
 class TaskModel: Object {
+    
+    dynamic var id: Int = 0
+    dynamic var name: String? = ""
+    dynamic var task: String? = ""
+    dynamic var due: String? = ""
+    dynamic var created: NSDate = NSDate()
+    dynamic var modified: NSDate = NSDate()
 
 }
