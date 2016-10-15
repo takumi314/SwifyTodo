@@ -17,5 +17,10 @@ class TaskModel: Object {
     dynamic var due: String? = ""
     dynamic var created: NSDate = NSDate()
     dynamic var modified: NSDate = NSDate()
+    
+    // Set the primary key at "id"
+    override static func primaryKey() -> String? {
+        return "id"
+    }
 
 }
