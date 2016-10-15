@@ -12,6 +12,7 @@ import RealmSwift
 class TaskModel: Object {
     
     dynamic var id: Int = 0
+    dynamic var user: Int = 0;
     dynamic var name: String? = ""
     dynamic var task: String? = ""
     dynamic var due: String? = ""
