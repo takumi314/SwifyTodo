@@ -9,15 +9,9 @@
 import Foundation
 import RealmSwift
 
-/// Initialize the particular directory
-let paths  = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask , true)
-let path: String = paths[0] + "/swifyToDo.realm"
-let url: NSURL = NSURL(fileURLWithPath:path)
-let realm = try! Realm(fileURL: url)
-
 class UserModel: Object {
     
-    dynamic var id: Int =  0
+    dynamic var id: Int = 0
     dynamic var name: String? = ""
     dynamic var password: String? = ""
     dynamic var created: NSDate = NSDate()
